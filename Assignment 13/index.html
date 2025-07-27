@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ID Card Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>ID Card Generator</h2>
+    
+    <form id="idForm">
+      <input type="text" id="name" placeholder="Enter Name" required>
+      <input type="text" id="idNumber" placeholder="Enter ID Number" required>
+      <input type="text" id="department" placeholder="Enter Department" required>
+      <input type="text" id="role" placeholder="Enter Role" required>
+      <button type="submit">Generate ID Card</button>
+    </form>
+
+    <div class="id-card" id="idCard">
+      <h3>ID Card</h3>
+      <p><strong>Name:</strong> <span id="cardName">--</span></p>
+      <p><strong>ID Number:</strong> <span id="cardId">--</span></p>
+      <p><strong>Department:</strong> <span id="cardDept">--</span></p>
+      <p><strong>Role:</strong> <span id="cardRole">--</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

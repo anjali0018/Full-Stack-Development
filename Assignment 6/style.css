@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  text-align: center;
+  padding: 50px;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 40px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #3498db;
+  margin: 0 auto;
+  border-radius: 20px;
+  animation: moveBox 3s infinite;
+}
+
+@keyframes moveBox {
+  0% {
+    transform: translateY(0);
+    background-color: #3498db;
+  }
+  50% {
+    transform: translateY(-100px);
+    background-color: #9b59b6;
+  }
+  100% {
+    transform: translateY(0);
+    background-color: #3498db;
+  }
+}
+
+p {
+  margin-top: 30px;
+  color: #333;
+  font-size: 16px;
+}
