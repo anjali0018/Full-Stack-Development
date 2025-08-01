@@ -1,0 +1,39 @@
+
+.container {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  min-height: 100vh;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #0a74da;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.weather-box {
+  margin-top: 20px;
+  background-color: white;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px #aaa;
+}
+
+.not-found {
+  margin-top: 20px;
+  color: red;
+}
